@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+    <header class="header">
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light mi-auto">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#service">Service</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#doctor">doctors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Review</a>
+          </li>
+
+
+          <i class="fas fa-moon text-success mt-3" onclick="myFunction()"></i>
+                
+
+        
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    </header>
+
+    <div class="home" id="Home" target="_blank">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <img src="image/home-img.svg" alt="">
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <h3>stay safe, stay healthy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed autem vero? Magnam, est
+                        laboriosam!</p>
+                    <a href="#" class="btn btn-success"> contact us <span class="fas fa-chevron-right"></span> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="icons-container bg-light">
+        <div class="container bg-light">
+            <div class="row bg-light">
+                <div class="col-md-3 bg-light mb-5 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-users text-center text-success "></i>
+                            <h3 class="text-muted text-center">1040+</h3>
+                            <p class="text-muted text-center">satisfied patients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-procedures text-success"></i>
+                            <h3 class="text-muted text-center">500+</h3>
+                            <p class="text-muted text-center">bed facility</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-users text-success"></i>
+                            <h3 class="text-muted text-center">1040+</h3>
+                            <p class="text-muted text-center">satisfied patients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-hospital text-success"></i>
+
+                            <h3 class="text-muted text-center">80+</h3>
+                            <p class="text-muted text-center">available hospitals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="service" id="service" target="_blank">
+        <div class="container mt-5">
+            <h1 class="text-center">OUR <span class="text-success">SERVICES</span></h1>
+            <div class="row">
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-notes-medical"></i>
+                            <h3>free checkups</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                            <a href="#" class="btn btn-success"> learn more <span class="fas fa-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-ambulance"></i>
+                            <h3>24/7 ambulance</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                            <a href="#" class="btn btn-success"> learn more <span class="fas fa-chevron-right"></span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-user-md"></i>
+                            <h3>expert doctors</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                            <a href="#" class="btn btn-success"> learn more <span class="fas fa-chevron-right"></span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-pills"></i>
+                            <h3>medicines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                            <a href="#" class="btn btn-success"> learn more <span class="fas fa-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-procedures"></i>
+                            <h3>bed facility</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                            <a href="#" class="btn btn-success"> learn more <span class="fas fa-chevron-right"></span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="fas fa-heartbeat"></i>
+                            <h3>total care</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                            <a href="#" class="btn btn-success"> learn more <span class="fas fa-chevron-right"></span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about mt-5" id="about" target="_blank">
+        <div class="container-fluid bg-light mt-5">
+            <h1 class="text-center pt-5"><span class="text-success">ABOUT</span>US</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/about-img.svg" alt="">
+                </div>
+                <div class="col-md-6 mt-5">
+                    <h3>we take care of your healthy life</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam
+                        in assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus
+                        nesciunt.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro
+                        voluptates voluptatibus a nihil temporibus deserunt vel?</p>
+                    <a href="#" class="btn btn-success"> learn more <span class="fas fa-chevron-right"></span> </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- <section class="doctor" id="doctor">
+        <div class="container mt-5">
+            <h1 class="text-center">OUR<span class="text-success">DOCTORS</span></h1>
+            <div class="row">
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/doc-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>john deo</h3>
+                            <span>expert doctor</span>
+                            <div class="share">
+                                <a href="#" class="fab fa-facebook-f text-success"></a>
+                                <a href="#" class="fab fa-twitter text-success"></a>
+                                <a href="#" class="fab fa-instagram text-success"></a>
+                                <a href="#" class="fab fa-linkedin text-success"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/doc-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>john deo</h3>
+                            <span>expert doctor</span>
+                            <div class="share">
+                                <a href="#" class="fab fa-facebook-f text-success"></a>
+                                <a href="#" class="fab fa-twitter text-success"></a>
+                                <a href="#" class="fab fa-instagram text-success"></a>
+                                <a href="#" class="fab fa-linkedin text-success"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/doc-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>john deo</h3>
+                            <span>expert doctor</span>
+                            <div class="share">
+                                <a href="#" class="fab fa-facebook-f text-success"></a>
+                                <a href="#" class="fab fa-twitter text-success"></a>
+                                <a href="#" class="fab fa-instagram text-success"></a>
+                                <a href="#" class="fab fa-linkedin text-success"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/doc-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>john deo</h3>
+                            <span>expert doctor</span>
+                            <div class="share">
+                                <a href="#" class="fab fa-facebook-f text-success"></a>
+                                <a href="#" class="fab fa-twitter text-success"></a>
+                                <a href="#" class="fab fa-instagram text-success"></a>
+                                <a href="#" class="fab fa-linkedin text-success"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section> -->
+
+
+
+    <div class="wrapper" id="doctor" target="_blank">
+        <h1 class="text-center pt-5">OUR<span class="text-success">DOCTORS</span></h1>
+        <div class="carousel owl-carousel">
+            <div class="card card-1"><img src="image/doc-1.jpg"></div>
+            <div class="card card-2"><img src="image/doc-2.jpg"></div>
+            <div class="card card-3"><img src="image/doc-3.jpg"></div>
+            <div class="card card-4"><img src="image/doc-4.jpg"></div>
+            <div class="card card-5"><img src="image/doc-5.jpg"></div>
+        </div>
+    </div>
+
+    <section class="book" id="book">
+        <div class="container-fluid bg-light mt-5">
+            <h1 class="text-center pt-5"><span class="text-success">BOOK</span>NOW</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/book-img.svg" alt="">
+                </div>
+                <div class="col-md-6 mt-5">
+                    <form>
+                        <h3 class="text-center">book appointment</h3>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+                        </div><br>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="Your Number">
+                        </div><br>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="Your Email">
+                        </div><br>
+                        <div class="form-group">
+
+                            <input type="date" class="form-control" id="formGroupExampleInput2">
+                        </div>
+                        <br>
+                        <input type="submit" value="book now" class="btn btn-success">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="testimonials" id="testimonials" target="_blank">
+        <div class="container">
+            <h1 class="title text-center">WHAT <span class="text-success">Client</span> SAY ?</h1>
+            <div class="row offset-1">
+                <div class="col-md-4 testimonials">
+                    <img src="image/doc-1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa quibusdam officia animi facere, velit exercitationem. Dolore harum illum deserunt?</p>
+                    <i class="fas fa-star  text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <p class="user-details"><b>Agelina</b><br>Co-founder at xyz</p>
+
+
+                </div>
+                <div class="col-md-4 testimonials">
+                    <img src="image/doc-2.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa quibusdam officia animi facere, velit exercitationem. Dolore harum illum deserunt?</p>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                
+                    <p class="user-details"><b>John Doe</b><br>Co-founder at xyz</p>
+
+                </div>
+                <div class="col-md-4 testimonials">
+                    <img src="image/doc-1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa quibusdam officia animi facere, velit exercitationem. Dolore harum illum deserunt?</p>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                    <i class="fas fa-star text-success"></i>
+                
+                    <p class="user-details"><b>John Doe</b><br>Co-founder at xyz</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>our services</h3>
+                    <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a><br>
+                    <a href="#"> <i class="fas fa-chevron-right"></i> message therapy </a><br>
+                    <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a><br>
+                    <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a><br>
+                    <a href="#"> <i class="fas fa-chevron-right"></i> ambulance service </a>
+
+                </div>
+                <div class="col-md-4">
+                    <h3>contact info</h3>
+                    <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a><br>
+                    <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a><br>
+                    <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a><br>
+                    <a href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a><br>
+                    <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+
+                </div>
+    <div class="col-md-4">
+        <h3>follow us</h3>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a><br>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a><br>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a><br>
+        <a href="#"> <i class="fab fa-instagram"></i> instagram </a><br>
+        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a><br>
+        <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+    </div>
+            
+    
+            <!-- <div class="box">
+                <h3>our services</h3>
+                <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> message therapy </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> ambulance service </a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            </div> -->
+        </div>
+        </div>
+    
+        <div class="credit"> created by <span>miss Rashmi Rajput</span> | all rights reserved </div>
+    
+    </section>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+        $(".carousel").owlCarousel({
+margin: 10,
+loop: true,
+autoplay: true,
+autoplayTimeout: 2000,
+autoplayHoverPause: true,
+responsive:{
+    0:{
+        items: 1,
+        nav: false
+    },
+    600:{
+        items: 2,
+        nav: false
+    },
+    1000:{
+        items: 3,
+        nav: false
+    },
+}
+            });
+    </script>
+
+    </body>
+
+</html>

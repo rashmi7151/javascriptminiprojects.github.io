@@ -1,0 +1,88 @@
+
+<section class="testimonials py-5" id="Testimonials">
+<div class="container-lg py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+            <div class="section-title text-center">
+                <h2 class="fw-bold mb-5">Testimonials</h2>
+
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carousel1" data-bs-slide-to="0"
+                        class="active"></li>
+                        <li data-bs-target="#carousel1" data-bs-slide-to="1"
+                        class="active"></li>
+                        <li data-bs-target="#carousel1" data-bs-slide-to="2"
+                        class="active"></li>
+                </ol>
+                <div class="carousel-inner"></div>
+                <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4">
+                    <div class="testi-author-info d-flex align-items-center">
+                        <img src="/img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="">
+                        <div class="author ms-3">
+                            <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                            <p class="text-muted m-0">Seo Manager</p>
+                        </div>
+                    </div>
+                    <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                        labore quae inventore consectetur nemo. Sed quis mollitia temporibus assumenda dolor!
+                    </p>
+                    <div class="rating text-danger">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4">
+                    <div class="testi-author-info d-flex align-items-center">
+                        <img src="/img/testimonial/2.jpg" class="img-thumbnail rounded-circle" alt="">
+                        <div class="author ms-3">
+                            <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                            <p class="text-muted m-0">Seo Manager</p>
+                        </div>
+                    </div>
+                    <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                        labore quae inventore consectetur nemo. Sed quis mollitia temporibus assumenda dolor!
+                    </p>
+                    <div class="ratings text-danger">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4">
+                    <div class="testi-author-info d-flex align-items-center">
+                        <img src="/img/testimonial/3.jpg" class="img-thumbnail rounded-circle" alt="">
+                        <div class="author ms-3">
+                            <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                            <p class="text-muted m-0">Seo Manager</p>
+                        </div>
+                    </div>
+                    <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                        labore quae inventore consectetur nemo. Sed quis mollitia temporibus assumenda dolor!
+                    </p>
+                    <div class="ratings text-danger">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+</section>
